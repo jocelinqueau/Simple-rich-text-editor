@@ -1,0 +1,13 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.71);
+}
+
+#app{
+  width: calc(100% - 20px);
+  min-height: 20vh;
+  border: 1px solid #fff;
+  margin: 10px;
+  color: #fff;
+}
