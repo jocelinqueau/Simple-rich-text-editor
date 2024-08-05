@@ -1,13 +1,10 @@
-body{
-  padding: 0;
-  margin: 0;
-  background-color: rgba(0, 0, 0, 0.71);
+#app {
+  border: 1px solid #ccc;
+  padding: 10px;
+  min-height: 100px;
+  margin-bottom: 10px;
 }
-
-#app{
-  width: calc(100% - 20px);
-  min-height: 20vh;
-  border: 1px solid #fff;
-  margin: 10px;
-  color: #fff;
+#status {
+  font-style: italic;
+  color: #666;
 }
