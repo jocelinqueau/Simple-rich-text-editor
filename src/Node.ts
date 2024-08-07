@@ -29,8 +29,8 @@ export class RootNode extends Node {
 
 export class TextNode extends Node {
   private _text: string;
-  private _selectionStart: number = 0;
-  private _selectionEnd: number = 0;
+  public _selectionStart: number = 0;
+  public _selectionEnd: number = 0;
 
   constructor(text: string = '', flags: number = 0) {
     super(flags);
